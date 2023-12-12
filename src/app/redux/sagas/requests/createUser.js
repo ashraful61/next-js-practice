@@ -1,7 +1,7 @@
-import axios from "axios";
+// import axios from "axios";
 
-const createUser = (name) => {
-  return axios.post("http://localhost:3004/users", { name });
-};
+// const createUser = (name) => {
+//   return axios.post("https://jsonplaceholder.typicode.com/users", { name });
+// };
 
-export default createUser;
+// export default createUser;

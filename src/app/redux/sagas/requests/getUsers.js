@@ -1,3 +1,9 @@
 import axios from "axios";
 
-export default () => axios.get("http://localhost:3004/users");
+const getUsers = () =>  axios.get("https://jsonplaceholder.typicode.com/users");
+// const getUsers = async() => {
+
+//     return fetch('https://jsonplaceholder.typicode.com/users');
+// }
+
+export default getUsers;
